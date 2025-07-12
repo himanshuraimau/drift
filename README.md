@@ -34,7 +34,29 @@ A peer-to-peer distributed file system built in Go, featuring content-addressabl
                    P2P Network
 ```
 
-## 🛠️ Installation
+## � Architecture Diagrams
+
+Comprehensive architecture diagrams are available in the [`diagrams/`](diagrams/) directory. These detailed visualizations cover all aspects of the Drift system:
+
+### 📋 Available Diagrams
+
+- **[Overall Architecture](diagrams/01_overall_architecture.md)** - Complete system overview with all components
+- **[Data Flow](diagrams/02_data_flow.md)** - Detailed data flow for Store, Get, and Delete operations  
+- **[P2P Network](diagrams/03_p2p_network.md)** - Network topology, peer discovery, and communication
+- **[Storage Architecture](diagrams/04_storage_architecture.md)** - Content-addressable storage and encryption
+- **[Node Lifecycle](diagrams/05_node_lifecycle.md)** - Bootstrap process and node management
+- **[System Overview](diagrams/06_system_overview.md)** - Complete system integration and security
+
+### 🎯 Quick Start with Diagrams
+
+1. **New to Drift?** Start with [Overall Architecture](diagrams/01_overall_architecture.md)
+2. **Understanding operations?** Check [Data Flow](diagrams/02_data_flow.md)
+3. **Network troubleshooting?** Use [P2P Network](diagrams/03_p2p_network.md)
+4. **Storage questions?** Refer to [Storage Architecture](diagrams/04_storage_architecture.md)
+
+All diagrams are created using [Mermaid](https://mermaid.js.org/) and can be viewed directly in GitHub or any Mermaid-compatible viewer.
+
+## �🛠️ Installation
 
 ### Prerequisites
 
